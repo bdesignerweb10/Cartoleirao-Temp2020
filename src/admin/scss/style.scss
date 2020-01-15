@@ -1,0 +1,244 @@
+@import "../../components/bootstrap/scss/bootstrap";
+
+
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #efefef;
+}
+
+/* Fixar Footer no rodapé */
+html,
+body{
+	height:100%;
+}
+
+main {
+	min-height:100%;
+    position:relative;
+}
+
+/* LOGIN */
+
+.login{
+	background: url(../img/background-login.jpg);
+	background-size: 1400px;
+}
+
+.mainform{
+	display: none;
+}
+
+.login-box {
+	border: 1px solid #cecece;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	margin-top: 10%;
+	padding: 0px !important;
+	background-color: white;
+	.login-header {
+		background-color: #00165b;
+		border-bottom: 1px solid #cecece;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		.head-login {
+			color: white;
+			padding: 0px !important;
+			font-size: 1.4rem;
+			margin-left: 5px;
+			vertical-align: middle;
+		}
+	}
+	form {
+		margin-left:30px !important;
+		margin-right:30px !important;
+		margin-bottom: 30px !important;
+	}
+}
+
+.form-box {
+	border: 1px solid #cecece;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+	margin-top: 2%;
+	padding: 0px !important;
+	background-color: white;
+	padding-left:30px !important;
+	padding-right:30px !important;
+	padding-bottom: 30px !important;
+}
+
+/* DEFAULT */
+
+.spacing{
+	margin:20px 0;
+}
+
+.modal-header{
+	background-color: #eb8300;
+    color: #fff;
+}
+
+.modal-danger{
+	background-color: red;
+    color: #fff;
+}
+
+.modal-info{
+	background-color: #17a2b8;
+    color: #fff;
+}
+
+.modal-disabled{
+	background-color: #c82333;
+    color: #fff;
+}
+
+.modal-warning{
+	background-color: #ffc107;
+	color: #fff;
+}
+
+.mainadd{
+	display: none;
+}
+
+/* MENU */
+
+.header .navbar{
+	padding-left: 80px;
+}
+
+.bd-not{
+	color: #fff;
+	background-color: #eb8300;
+}
+
+/* USUÁRIOS */
+
+.tbl-users{
+	text-align: center;
+}
+
+/* icons */
+.icon-ok{
+	color: green;
+}
+.icon-disabled{
+	color: #d9534f;
+}
+.icon-edit {
+	color: #5bc0de;
+}
+.icon-reset{
+	color: #d7dd35;
+}
+.icon-delete {
+	color: red;
+}
+
+.icon-warning{
+	color: #ffc107;
+}
+
+/* CAMPEONATOS */
+
+.legend{
+	display: flex;
+	justify-content: flex-end;
+} 
+
+.legend p{
+	padding-left: 20px;
+}
+
+.fa-trophy{
+	color: #f1e027;
+}
+
+.value-insc{
+	padding: 0 27px;
+	font-size: 13px;
+}
+
+/*Mata mata Confrontos*/
+
+.cup-vs{
+	margin-bottom: 20px;
+}
+.cup-vs .form-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cup-vs .form-row span{
+	font-size: 23px;
+    color: #555;
+}
+
+ /* btn */
+
+ .btn-action .btn{
+ 	width: 95%
+ }
+
+ .btn-action-2 .btn{
+ 	width: 100%
+ }
+
+/* Clubes */
+
+.shield-club{
+	width: 25px !important;
+}
+
+/* CONFIGURAÇÕES */
+
+.btns{
+	margin-top: 20px;
+}
+
+.btns .btn{
+	width: 100%;
+}
+
+/* Footer */
+
+.footer{
+	padding: 15px 0;
+    background-color: #eb8300;
+}
+
+.footer p{
+	padding-top: 20px;
+}

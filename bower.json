@@ -1,0 +1,31 @@
+{
+  "name": "cartoleirao20",
+  "description": "Cartoleirão - Temporada 2020",
+  "main": "index.js",
+  "authors": [
+    "Bruno Gomes",
+    "Pedro Pilz",
+    "Marcelo Macedo"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Cartola",
+    "FC",
+    "Cartoleirão",
+    "Brasileirão",
+    "Fantasy",
+    "Futebol"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
